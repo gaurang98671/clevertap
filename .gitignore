@@ -1,5 +1,6 @@
 # CDK build outputs
 cdk.out
+cdk.context.json
 
 # Python virtual envs
 .venv/
