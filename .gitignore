@@ -1,7 +1,0 @@
-cdk.out/
-*/cdk.out/
-
-.venv/
-*/.venv/
-venv/
-*/venv/
