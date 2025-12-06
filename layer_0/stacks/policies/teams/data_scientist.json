@@ -1,0 +1,24 @@
+{
+      "role_name": "DataScientistRole",
+      "permissions": {
+        "common": {
+          "actions": [
+            "s3:ListBucket",
+            "glue:GetTable"
+          ]
+        },
+        "prod": {
+          "actions": [
+            "s3:GetObject",
+            "rds:DescribeDBInstances"
+          ]
+        },
+        "staging": {
+          "actions": [
+            "s3:*",
+            "rds:*",
+            "glue:*"
+          ]
+        }
+      }
+    }

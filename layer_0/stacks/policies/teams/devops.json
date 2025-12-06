@@ -1,0 +1,26 @@
+{
+    "role_name": "DevOpsRole",
+    "permissions": {
+        "common": {
+            "actions": [
+                "ec2:Describe*",
+                "ecs:List*",
+                "ecs:Describe*",
+                "logs:*"
+            ]
+        },
+        "prod": {
+            "actions": [
+                "ecs:UpdateService",
+                "ecr:*"
+            ]
+        },
+        "staging": {
+            "actions": [
+                "ecs:*",
+                "ecr:*",
+                "rds:Describe*"
+            ]
+        }
+    }
+}

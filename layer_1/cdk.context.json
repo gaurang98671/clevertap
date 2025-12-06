@@ -1,0 +1,162 @@
+{
+  "vpc-provider:account=830359385979:filter.tag:Name=VPC_Gaurang_ap-south-1:region=ap-south-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-097d56ccd5a9e6966",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "ownerAccountId": "830359385979",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "pub1",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0b6d4171438e8e212",
+            "cidr": "10.0.0.0/24",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-05a94560e9e2a9705"
+          },
+          {
+            "subnetId": "subnet-032ddf9b892d72afa",
+            "cidr": "10.0.1.0/24",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-0245fee99cc5f3202"
+          }
+        ]
+      },
+      {
+        "name": "pvt2",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-042bef1b72f2dee68",
+            "cidr": "10.0.4.0/24",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-024c6e23c48e0a751"
+          },
+          {
+            "subnetId": "subnet-0ce791c02b1979499",
+            "cidr": "10.0.5.0/24",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-0c28a0b6a187ddc76"
+          }
+        ]
+      },
+      {
+        "name": "pvt1",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-073cbc8475a786944",
+            "cidr": "10.0.2.0/24",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-03fd0fef2109e342a"
+          },
+          {
+            "subnetId": "subnet-09c66d6f686a1d90b",
+            "cidr": "10.0.3.0/24",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-02ead505c1ea3bd3e"
+          }
+        ]
+      },
+      {
+        "name": "pvt3",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-05e9a4821e284f7ec",
+            "cidr": "10.0.6.0/24",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-0b7489e4d85d9a5f1"
+          },
+          {
+            "subnetId": "subnet-0111c4df79a79a4c6",
+            "cidr": "10.0.7.0/24",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-0fa58827c74ad9b5c"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=830359385979:filter.tag:Name=VPC_Gaurang_eu-west-2:region=eu-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-088d3dad98223403a",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "ownerAccountId": "830359385979",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "pvt2",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0ec6f5baa050bcc52",
+            "cidr": "10.0.4.0/24",
+            "availabilityZone": "eu-west-2a",
+            "routeTableId": "rtb-0b83cfa423f36a4a0"
+          },
+          {
+            "subnetId": "subnet-0fcc1739b5a388b96",
+            "cidr": "10.0.5.0/24",
+            "availabilityZone": "eu-west-2b",
+            "routeTableId": "rtb-0a8e3235a4d785bd2"
+          }
+        ]
+      },
+      {
+        "name": "pub1",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-00176d4599f7fcbe6",
+            "cidr": "10.0.0.0/24",
+            "availabilityZone": "eu-west-2a",
+            "routeTableId": "rtb-09c053141c7d7142b"
+          },
+          {
+            "subnetId": "subnet-0a82ed451f17fd4c4",
+            "cidr": "10.0.1.0/24",
+            "availabilityZone": "eu-west-2b",
+            "routeTableId": "rtb-071f511d35f0fd1ea"
+          }
+        ]
+      },
+      {
+        "name": "pvt3",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-06aec1ced6fdae5a6",
+            "cidr": "10.0.6.0/24",
+            "availabilityZone": "eu-west-2a",
+            "routeTableId": "rtb-089c38eab96b884eb"
+          },
+          {
+            "subnetId": "subnet-0f8eff50e07ea1b66",
+            "cidr": "10.0.7.0/24",
+            "availabilityZone": "eu-west-2b",
+            "routeTableId": "rtb-00ce0594491007160"
+          }
+        ]
+      },
+      {
+        "name": "pvt1",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-04bba69e25b531eee",
+            "cidr": "10.0.2.0/24",
+            "availabilityZone": "eu-west-2a",
+            "routeTableId": "rtb-02a411c7e118dc6ab"
+          },
+          {
+            "subnetId": "subnet-026fbbad0c059f368",
+            "cidr": "10.0.3.0/24",
+            "availabilityZone": "eu-west-2b",
+            "routeTableId": "rtb-0e26353e2e3352891"
+          }
+        ]
+      }
+    ]
+  }
+}

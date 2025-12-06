@@ -1,0 +1,26 @@
+{
+  "role_name": "SupportRole",
+  "permissions": {
+    "common": {
+      "actions": [
+        "logs:GetLogEvents",
+        "logs:FilterLogEvents",
+        "cloudwatch:GetMetricData"
+      ]
+    },
+    "prod": {
+      "actions": [
+        "ecs:DescribeTasks",
+        "ecs:DescribeServices",
+        "rds:DescribeDBInstances"
+      ]
+    },
+    "staging": {
+      "actions": [
+        "ecs:Describe*",
+        "rds:Describe*",
+        "s3:GetObject"
+      ]
+    }
+  }
+}

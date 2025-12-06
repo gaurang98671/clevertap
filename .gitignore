@@ -1,0 +1,12 @@
+# CDK build outputs
+cdk.out
+
+# Python virtual envs
+.venv/
+*/.venv/
+venv/
+*/venv/
+
+# Python cache
+__pycache__/
+*.pyc

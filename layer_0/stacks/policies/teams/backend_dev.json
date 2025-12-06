@@ -1,0 +1,23 @@
+{
+      "role_name": "BackendDevRole",
+      "permissions": {
+        "common": {
+          "actions": [
+            "logs:GetLogEvents",
+            "ecs:DescribeTasks"
+          ]
+        },
+        "prod": {
+          "actions": [
+            "rds:DescribeDBInstances"
+          ]
+        },
+        "staging": {
+          "actions": [
+            "ecs:ExecuteCommand",
+            "rds:*",
+            "s3:*"
+          ]
+        }
+      }
+    }
