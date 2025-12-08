@@ -90,6 +90,18 @@ class ECSServiceStack(Stack):
             security_groups=[service_sg],
             assign_public_ip=True
         )
+        
+        scaling = service.auto_scale_task_count(
+            min_capacity=2,
+            max_capacity=10
+        )
+        
+        scaling.scale_on_cpu_utilization(
+            "CpuScaling",
+            target_utilization_percent=60,
+            scale_in_cooldown=Duration.seconds(60),
+            scale_out_cooldown=Duration.seconds(30),
+        )
 
         target_group = elbv2.ApplicationTargetGroup(
             self,
